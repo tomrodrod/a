@@ -11,6 +11,7 @@
         android:maxSdkVersion="28" />
 
     <application
+        android:name=".App"
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
@@ -21,28 +22,28 @@
         android:theme="@style/Theme.PruebaPrueba"
         tools:targetApi="31">
         <activity
-            android:name=".activitys.MainActivity"
+            android:name=".ui.activitys.MainActivity"
             android:exported="false" />
         <activity
-            android:name=".activitys.FormularioPersonaActivity"
+            android:name=".ui.activitys.FormularioPersonaActivity"
             android:exported="false" />
         <activity
-            android:name=".activitys.PersonasActivity"
+            android:name=".ui.activitys.PersonasActivity"
             android:exported="false" />
         <activity
-            android:name=".activitys.DetalleFacturaCompletaActivity"
+            android:name=".ui.activitys.DetalleFacturaCompletaActivity"
             android:exported="false" />
         <activity
-            android:name=".activitys.DetalleFacturaActivity"
+            android:name=".ui.activitys.DetalleFacturaActivity"
             android:exported="false" />
         <activity
-            android:name=".activitys.HistorialFacturasActivity"
+            android:name=".ui.activitys.HistorialFacturasActivity"
             android:exported="false" />
         <activity
-            android:name=".activitys.ResultActivity"
+            android:name=".ui.activitys.ResultActivity"
             android:exported="false" />
         <activity
-            android:name=".activitys.CameraActivity"
+            android:name=".ui.activitys.CameraActivity"
             android:exported="false" />
         <activity
             android:name=".MainActivity"

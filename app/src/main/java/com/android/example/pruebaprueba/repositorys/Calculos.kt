@@ -1,12 +1,8 @@
 package com.android.example.pruebaprueba.repositorys
 
-import com.android.example.pruebaprueba.config.AppDatabase
-import com.android.example.pruebaprueba.models.Articulo
+import com.android.example.pruebaprueba.data.local.config.AppDatabase
 import com.android.example.pruebaprueba.models.ArticuloConCantidad
-import com.android.example.pruebaprueba.models.Persona
 import com.android.example.pruebaprueba.models.PersonaConTotal
-import java.io.Serializable
-
 
 
 suspend fun calcularConsumoPorPersona(facturaId: Int, db: AppDatabase): List<PersonaConTotal> {

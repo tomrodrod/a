@@ -1,24 +1,12 @@
 package com.android.example.pruebaprueba
 
-import android.annotation.SuppressLint
 import android.content.Intent
 import android.os.Bundle
-import android.util.Log
-import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
-import androidx.lifecycle.lifecycleScope
-import com.android.example.pruebaprueba.activitys.CameraActivity
-import com.android.example.pruebaprueba.activitys.HistorialFacturasActivity
-import com.android.example.pruebaprueba.config.AppDatabase
+import com.android.example.pruebaprueba.data.local.config.AppDatabase
 import com.android.example.pruebaprueba.databinding.ActivityMainBinding
-import com.android.example.pruebaprueba.mindeeocr.MindeeService
-import android.os.Handler
-import android.os.Looper
-import com.android.example.pruebaprueba.mindee.ListaProductos
-import com.android.example.pruebaprueba.mindee.pollRepetir
-import com.android.example.pruebaprueba.models.Product
-
-import java.io.File
+import com.android.example.pruebaprueba.ui.activitys.CameraActivity
+import com.android.example.pruebaprueba.ui.activitys.HistorialFacturasActivity
 
 class MainActivity : AppCompatActivity() {
     private lateinit var binding: ActivityMainBinding
